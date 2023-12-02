@@ -1,0 +1,109 @@
+
+.single-court-img-box{
+    height: 70vh;
+    position: relative;
+}
+
+.single-court-img-box img{
+    width:  100%;
+    height:100%;
+}
+.court-name{
+ 
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom:0%;
+    left: 0%;
+    height: 30%;
+    color: white;
+    width: 100%;
+    padding: 3rem 3rem 0 3rem ;
+background: linear-gradient(rgb(236, 225, 225, 0),rgb(20, 18, 18));
+
+}
+
+.court-name button {
+    padding-inline:20px;
+    padding-block:20px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right,  rgb(0, 21, 255, .8), rgb(61, 125, 227 ,.7), rgb(0, 21, 255, .8));
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.rolling-booking{
+    display: flex;
+    flex-direction: row;
+    /* padding-block: 5px; */
+    background-image: linear-gradient(to top,  rgb(0, 21, 255, .8), rgb(61, 125, 227 ,.7));
+    font-size:1.5rem;
+    color: rgb(220, 238, 17);
+}
+.date-picker{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+gap: 2rem;
+}
+.date-picker span {
+    padding:.3rem 1rem .3rem 1rem;
+border: 1px solid #e0e0e0a8;
+background-color: antiquewhite;
+border-radius: 5px;
+}
+.date-picker input, input:focus {
+    all: unset;
+    padding:.3rem 1rem .3rem 1rem;
+border: 1px solid #e0e0e0a8;
+border-radius: 5px;
+}
+.slotname-container span{
+padding: .4rem;
+border: 1px solid #e0e0e0a8;
+border-radius: 5px;
+cursor: pointer;
+}
+.cus-dropdown{
+    position: relative;
+    padding: 5px;
+    border: 1px solid black;
+    width: 200px;
+    }
+    .cus-options{
+        position: absolute;
+        width: 100%;
+        top: 35px;
+        left: 0px;
+        min-height: 180px;
+        z-index: 4;
+        max-height: 200px;
+        background-color: white;
+        border: 1px solid rgb(35, 14, 14, .6);
+        overflow: auto;
+    }
+    .cus-options li{
+        list-style: none;
+        padding: 5px;
+        border-bottom: 1px solid black;
+    }
+    .cus-options li:last-child{
+        border-bottom:none
+    
+    }
+    
+    
+        .add-court-timing-modal{
+    width: 500px;
+    min-height: fit-content;
+        }
+        .add-court-timing-modal input{
+            all: unset;
+            padding:.3rem 1rem .3rem 1rem;
+        border: 1px solid #e0e0e0a8;
+        border-radius: 5px;
+        color: black;
+
+        }
+        .add-court-timing-modal input:focus{
+            border-color: blue;
+        }
